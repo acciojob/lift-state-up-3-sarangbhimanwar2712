@@ -10,7 +10,7 @@ const Parent =()=>{
         <div className="parent">
             <h1>Parent Component</h1>
             
-            <div className="child">
+            <div className="child1">
                 <h2>Child Component 1</h2>
                 <button onClick={()=>setOption("Option 1")}>Option 1</button>
             </div>
@@ -18,7 +18,9 @@ const Parent =()=>{
                 <h2>Child Component 2</h2>
                 <button onClick={()=>setOption("Option 2")}>Option 2</button>
             </div>
-            Selected Option: {option}
+            <p>
+                Selected Option: {option}
+            </p>
         </div>
     )
 }
