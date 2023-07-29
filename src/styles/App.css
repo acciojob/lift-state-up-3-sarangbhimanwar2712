@@ -1,1 +1,23 @@
 
+.parent{
+    background-color: rgb(115,254,0);
+    color: black;
+    padding: 20px 20px;
+    width: 500px;
+}
+
+.child{
+    /* margin: 0 15px; */
+    background-color: rgb(205,92,27);
+    padding: 10px;
+    
+}
+
+.child2{
+    background-color: rgb(251,206,0);
+    padding: 10px;
+}
+.parent p{
+    padding: 0 0;
+    margin: 0 0;
+}
